@@ -1,0 +1,22 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="tbFrtNumber" HorizontalAlignment="Left" Height="26" Margin="188,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="188"/>
+        <TextBox Name="tbSecNumber" HorizontalAlignment="Left" Height="26" Margin="188,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="188"/>
+        <Button Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="421,104,0,0" VerticalAlignment="Top" Width="118" Click="BtnCalculate_Click" Height="36" RenderTransformOrigin="0.157,0.625"/>
+        <Label Name="lblFrtNumber" Content="First Number: " FontWeight="Bold" HorizontalAlignment="Left" Margin="20,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.429,0.414" Width="136"/>
+        <Label Name="lblSecNumber" Content="Second Number: " FontWeight="Bold" HorizontalAlignment="Left" Margin="20,144,0,0" VerticalAlignment="Top" Height="23" Width="136" RenderTransformOrigin="0.146,0.751"/>
+        <Label Name="lblCalculateResAdd" Content="" HorizontalAlignment="Left" Margin="141,232,0,0" VerticalAlignment="Top" Width="188" BorderThickness="1" BorderBrush="CadetBlue"/>
+        <Label Name="lblResult" Content="Results: " FontWeight="Bold" HorizontalAlignment="Left" Margin="20,232,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblCalculateResSub" Content="" HorizontalAlignment="Left" Margin="364,232,0,0" VerticalAlignment="Top" Width="188" BorderThickness="1" BorderBrush="CadetBlue"/>
+        <Label Name="lblCalculateResMult" Content="" HorizontalAlignment="Left" Margin="141,275,0,0" VerticalAlignment="Top" Width="188" BorderThickness="1" BorderBrush="CadetBlue"/>
+        <Label Name="lblCalculateResDiv" Content="" HorizontalAlignment="Left" Margin="364,275,0,0" VerticalAlignment="Top" Width="188" BorderThickness="1" BorderBrush="CadetBlue"/>
+
+    </Grid>
+</Window>
